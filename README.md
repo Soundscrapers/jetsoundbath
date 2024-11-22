@@ -6,5 +6,6 @@ Max MSP is required to load the patch. Visit www.cycling74.com for a demo of Max
 
 Ideas for further development:
 1. Improve the band filtering method which is currently dependent on some arbitrary values for Q (resonance) and threshold amplitudes. During the jet sound installation I manually tweaked these variables to find the approriate levels given the particular environment I was recording in. However, if the environment is likely to change, there should be a callibration button that takes sample noise values and automatically applies these filter variables.
+2. Include other parameters from the live sound feed to guide the instrument design. Loudness (amplitude) is currently routed into the audio subroutine but is not fully implemented. There are many other qualities of the jet sound, the timbre, which can be measured and built into the sound bath synthesizers.
 
 
